@@ -1,4 +1,4 @@
-# jgitver-maven-plugin
+# jgitver-maven-plugin ([forked by Talentia](TalentiaFork-README.md))
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/fr.brouillard.oss/jgitver-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/fr.brouillard.oss/jgitver-maven-plugin)
 [![Sponsor](https://img.shields.io/badge/sponsor-jgitver-blue?logo=github-sponsors)](https://github.com/sponsors/McFoggy)
