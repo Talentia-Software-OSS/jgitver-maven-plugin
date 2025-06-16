@@ -84,7 +84,11 @@ public class JGitverModelProcessor extends DefaultModelProcessor {
 
   private Model provisionModel(Model model, Map<String, ?> options) throws IOException {
     MavenSession session = legacySupport.getSession();
-    boolean shouldUseFlattenPlugin = JGitverUtils.shouldUseFlattenPlugin(session);
+    boolean shouldUseFlattenPlugin = false;
+
+    if (session != null) {
+      shouldUseFlattenPlugin = JGitverUtils.shouldUseFlattenPlugin(session);
+    }
 
     Optional<JGitverSession> optSession = jgitverSession.session();
     if (!optSession.isPresent()) {
