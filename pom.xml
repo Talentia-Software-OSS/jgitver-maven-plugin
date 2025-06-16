@@ -20,7 +20,7 @@
 
     <groupId>com.tswe.tcf</groupId>
     <artifactId>jgitver-maven-plugin</artifactId>
-    <version>1.7.1</version>
+    <version>1.9.0</version>
     <packaging>maven-plugin</packaging>
 
     <name>jgitver Maven Plugin</name>
