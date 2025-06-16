@@ -788,5 +788,27 @@
                 </repository>
             </repositories>
         </profile>
+        <profile>
+			<id>server</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<distributionManagement>
+				<snapshotRepository>
+					<id>talentia-snapshots</id>
+					<name>a0dwilnwspkbk-artifactory-primary-0-snapshots</name>
+					<url>https://talentia.jfrog.io/artifactory/payroll-maven-snapshots</url>
+				</snapshotRepository>
+				<repository>
+					<id>talentia-releases</id>
+					<name>a0dwilnwspkbk-artifactory-primary-0-releases</name>
+					<url>https://talentia.jfrog.io/artifactory/payroll-maven-releases</url>
+				</repository>
+				<site>
+					<id>${deployWebSiteServerId}</id>
+					<url>${deployWebSiteUrl}</url>
+				</site>
+			</distributionManagement>
+		</profile>
     </profiles>
 </project>
