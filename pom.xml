@@ -793,18 +793,14 @@
 			</activation>
 			<distributionManagement>
 				<snapshotRepository>
-					<id>libs-snapshots</id>
-					<name>Repository for in-house libraries</name>
-					<url>
-					http://artifactory.lswe.priv/libs-snapshots
-                    </url>
+					<id>talentia-snapshots</id>
+					<name>a0dwilnwspkbk-artifactory-primary-0-snapshots</name>
+					<url>https://talentia.jfrog.io/artifactory/payroll-maven-snapshots</url>
 				</snapshotRepository>
 				<repository>
-					<id>libs-releases</id>
-					<name>Repository for in-house libraries</name>
-					<url>
-					http://artifactory.lswe.priv/libs-releases
-                    </url>
+					<id>talentia-releases</id>
+					<name>a0dwilnwspkbk-artifactory-primary-0-releases</name>
+					<url>https://talentia.jfrog.io/artifactory/payroll-maven-releases</url>
 				</repository>
 				<site>
 					<id>${deployWebSiteServerId}</id>
